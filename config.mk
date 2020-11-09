@@ -143,6 +143,10 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
+# Immersive Navigation
+PRODUCT_PACKAGES += \
+    ImmersiveNavigationOverlay
+
 # Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/fortune/extras/overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/fortune/extras/overlay
