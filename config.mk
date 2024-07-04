@@ -118,6 +118,27 @@ PRODUCT_PACKAGES += \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
 
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeIosOverlay \
+    IconShapeLeafOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRohieMeowOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeSamsungOverlay \
+    IconShapeScrollOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeSquareOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    IconShapeVesselOverlay
+
 # Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/fortune/extras/overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/fortune/extras/overlay
